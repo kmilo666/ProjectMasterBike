@@ -35,3 +35,8 @@ div.principal p{
 font-size: 1.5rem;
 text-align: justify;
 }
+.contenedor{
+    margin-top: 200px;
+    border: rgb(180, 178, 178) solid 5px;
+    border-radius: 5px;
+}
