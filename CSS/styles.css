@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    font-family: Roboto;
+    font-weight:bold ;
+    background: linear-gradient(to right,rgb(0, 155, 202),rgb(223, 145, 2));
+}
+nav a span{
+    color: rgb(241, 231, 86);
+    text-shadow: 1px 1px 2px black;
+}
+div.principal{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+div.principal p{
+font-size: 1.4rem;
+text-align: justify;
+}
+
+.menu__item{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.8rem;
+}
