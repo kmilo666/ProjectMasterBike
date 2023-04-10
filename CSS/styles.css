@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 239, 227);
 }
 nav{
     font-family: Roboto;
@@ -12,20 +12,26 @@ nav a span{
     margin: 0 1.2rem;
     padding: 0 3px;
 }
-div.principal{
-    background-color: black;
-    text-align: center;
-    color: white;
-    
-}
-div.principal p{
-font-size: 1.5rem;
-text-align: justify;
-}
 
 .menu__item{
     color: white;
     text-align: center;
     padding: 5px;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+}
+
+div a.active span{
+    font-size: 1.9rem;
+    color: rgb(241, 231, 86);
+    text-shadow: 1px 1px 1px white;
+}
+div.principal{
+    background-color: black;
+    text-align: center;
+    color: white;    
+}
+
+div.principal p{
+font-size: 1.5rem;
+text-align: justify;
 }
