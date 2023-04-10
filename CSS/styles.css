@@ -9,6 +9,8 @@ nav{
 nav a span{
     color: rgb(241, 231, 86);
     text-shadow: 1px 1px 2px black;
+    margin: 0 1.2rem;
+    padding: 0 3px;
 }
 div.principal{
     background-color: black;
@@ -17,7 +19,7 @@ div.principal{
     
 }
 div.principal p{
-font-size: 1.4rem;
+font-size: 1.5rem;
 text-align: justify;
 }
 
