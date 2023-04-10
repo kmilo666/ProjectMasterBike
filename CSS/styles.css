@@ -40,3 +40,19 @@ text-align: justify;
     border: rgb(180, 178, 178) solid 5px;
     border-radius: 5px;
 }
+.main_productos1{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: gold;
+    background-color: black;
+    height: 1000px;
+}
+.main_productos2{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: gold;
+    height: 1000px;
+}
