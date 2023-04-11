@@ -56,3 +56,21 @@ text-align: justify;
     background-color: gold;
     height: 1000px;
 }
+.sombra_icono{
+    box-shadow: 1px 1px 3px white;
+}
+.footer_titles{
+    font-family: Roboto;
+    color: gold;
+    text-shadow: 1px 1px 2px white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #041bee;
+}
+footer a:visited{
+    color: #faf5ef;
+}
