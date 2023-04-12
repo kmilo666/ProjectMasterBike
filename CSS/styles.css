@@ -42,19 +42,19 @@ text-align: justify;
 }
 .main_productos1{
     text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    font-family: roboto;
+    
     color: gold;
     background-color: black;
-    height: 1000px;
+    
 }
 .main_productos2{
     text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    font-family: roboto;
+    
     color: black;
     background-color: gold;
-    height: 1000px;
+    
 }
 .sombra_icono{
     box-shadow: 1px 1px 3px white;
@@ -90,4 +90,11 @@ div.p_frecuentes h3{
 }
 .met_desp_justi{
     text-align: justify;
+}
+.card_tamanio{
+    width: 12rem;
+    
+}
+.fondo_productos{
+    background-color: bisque;
 }
