@@ -4,7 +4,7 @@ body{
 nav{
     font-family: Roboto;
     font-weight:bold ;
-    background: linear-gradient(to right,rgb(0, 155, 202),rgb(223, 145, 2));
+    background: linear-gradient(to right,rgb(0, 155, 202),rgb(223, 145, 2),red );
 }
 nav a span{
     color: rgb(241, 231, 86);
@@ -66,11 +66,28 @@ text-align: justify;
 }
 footer a{
     text-decoration: none;
-    color: white;
+    color: rgb(197, 227, 252);
 }
+footer a:visited{
+    color: #b48346;
+}
+
 footer a:hover{
     color: #041bee;
 }
-footer a:visited{
-    color: #faf5ef;
+
+footer a:active{
+    color: #f5c646;
+}
+.p_frecuentes{  
+    text-align: justify;
+    font-size: 1rem;
+}
+div.p_frecuentes h3{
+    color: #f6d884;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+.met_desp_justi{
+    text-align: justify;
 }
