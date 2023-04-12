@@ -79,26 +79,3 @@ footer a:hover{
 footer a:active{
     color: #f5c646;
 }
-
-.Titulo_principal{
-    color: #82858e;
-    
-}
-
-.Titulo_principal{
-    color: #373030;
-    transition: 1.5s;
-}
-
-.sucursal-nombre{
-    color: #373030;
-    transition: 1.5s;
-}
-
-.sucursal-provincia{
-    color: #373030;
-    transition: 1.5s;
-}
-
-
-
