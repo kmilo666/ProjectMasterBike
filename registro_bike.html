@@ -18,106 +18,201 @@
   <body>
     <div class="container-fluid">
 
-    <header>      
-          <div class="row col">
-              <nav class=" navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="container-fluid">
-                    <a class="navbar-brand" href="/Web/Principal/index.html">
-                      <img src="/Img/favicon-32x32.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item menu__item">
-                          <a class="nav-link" aria-current="page" href="/Web/Principal/index.html"><span> Inicio</span></a>
-                        </li>
-                        <li class="nav-item menu__item">
-                          <a class="nav-link" href="/Web/Productos/productosYservicios.html"><span>Productos & Servicios</span></a>
-                        </li>
-                        <li class="nav-item menu__item">
-                          <a class="nav-link" href="/Web/Apartado Usuario/login.html"><span>Login</span></a>
-                        </li>
-                        <li class="nav-item menu__item">
-                          <a class="nav-link active" href="/Web/Contactanos/contactanos.html"><span>Contacto</span></a>
-                        </li>
-                        <!-- <li class="nav-item dropdown menu__item"  >
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span>Login</span>
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#"><span> 1</span></a></li>
-                            <li><a class="dropdown-item" href="#"><span> 2 </span></a></li>
-                            <li><a class="dropdown-item" href="#"><span> 3</span></a></li> -->
-                            
-                          </ul>
-                        </li>                      
-                      </ul>
-                    </div>
-                  </div>                
-              </nav>            
+      <header>      
+            <div class="row col">
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="/Web/Principal/index.html">
+                        <img src="/Img/favicon-32x32.png" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item menu__item">
+                            <a class="nav-link" aria-current="page" href="/Web/Principal/index.html"><span> Inicio</span></a>
+                          </li>
+                          <li class="nav-item menu__item">
+                            <a class="nav-link" href="/Web/Productos/productosYservicios.html"><span>Productos & Servicios</span></a>
+                          </li>
+                          <li class="nav-item menu__item">
+                            <a class="nav-link" href="/Web/Apartado Usuario/login.html"><span>Login</span></a>
+                          </li>
+                          <li class="nav-item menu__item">
+                            <a class="nav-link" href="/Web/Contactanos/contactanos.html"><span>Contacto</span></a>
+                          </li>
+                          <!-- <li class="nav-item dropdown menu__item"  >
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span>Login</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#"><span> 1</span></a></li>
+                              <li><a class="dropdown-item" href="#"><span> 2 </span></a></li>
+                              <li><a class="dropdown-item" href="#"><span> 3</span></a></li> -->
+                              
+                            </ul>
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                
+                </nav>            
+            </div>
+      </header>
+
+      <div class="row">
+      
+        <main class="row mt-3 mb-5 " >
+          <div class="mt-5 contacto">
+            <h2 class="offset-1 col-10 fs-1"><strong> Enviar Solicitud: </strong></h2>
+
+            <form id="form-contact"  class="offset-1 col-10 form mb-5">
+
+              <div class="form-group fs-3 mt-4">
+                  <label for="name">Nombre Completo:</label>
+                  <input type="text" class="form-control fs-4" id="name" placeholder="Juanito Connor">
+                  <small id="nameHelp" class=" form-text text-danger"> </small>
+              </div>
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="email">Email: </label>
+                <input type="email" class="form-control fs-4" id="email" placeholder="jConnor@skynet.com">
+    
+                <small id="mailHelp" class=" form-text text-danger"> </small>
+              </div> 
+
+              <div class="form-group fs-3 mt-4"> 
+                <label for="">Marca de Bicicleta</label>           
+              <select class="form-select fs-3" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">Oxford</option>
+                <option value="2">Trek</option>
+                <option value="3">BMC</option>
+                <option value="4">Canyon</option>
+                <option value="5">Giant</option>
+                <option value="6">Scott</option>
+              </select>
+              </div>
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="fech_comp">Fecha de Compra</label>
+                <input type="text" class="form-control fs-4" id="fech_comp" placeholder="01-01-1990">
+                <small id=" fechaHelp" class=" form-text text-danger"> </small>
+              </div> 
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="boleta">Número Boleta</label>
+                <input type="text" class="form-control fs-4" id="boleta" placeholder="xxx-xxxx">
+                <small id=" boletaHelp" class=" form-text text-danger"> </small>
+              </div> 
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="nMotor ">Numero de Motor</label>
+                <input type="text" class="form-control fs-4" id="nMotor" placeholder="X123FC">
+                <small id="motorHelp" class=" form-text text-danger"> </small>
+              </div> 
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="Rut">Rut</label>
+                <input type="text" class="form-control fs-4" id="Rut" placeholder="">
+                <small id="rutHelp" class=" form-text text-danger"> </small>
+              </div> 
+
+              <div class="form-group fs-3 mt-4">
+                <label for="asunto">Asunto</label>
+                <input type="text" class="form-control fs-4" id="asunto" placeholder="">
+                <small id="asuntoHelp" class=" form-text text-danger"> </small>
+              </div>   
+    
+              <div class="form-group fs-3 mt-4">
+                <label for="text-area">Descripcion:</label>
+                <textarea class="form-control fs-4" id="text-area" rows="4" placeholder="Ingrese los detalles de esta solicitud. Un integrante de nuestro personal de soporte responderá en breve."></textarea>
+                <small id="textHelp" class=" form-text text-danger"> </small>
+              </div>
+
+              <div class="form-group fs-3 mt-4"> 
+                <label for="">Region</label>           
+              <select class="form-select fs-3" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">Metropilitana de Santiago</option>
+                <option value="2">Arica y Parinacota</option>
+                <option value="3">Otros</option>             
+              </select>
+              </div>
+
+              <div class="form-group fs-3 mt-4"> 
+                <label for="">Comuna</label>           
+              <select class="form-select fs-3" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">La Pintana</option>
+                <option value="2">Puente Asalto</option>
+                <option value="3">Otros</option>             
+              </select>
+              </div>
+    
+              <div class="fs-4 mb-3 mt-4">
+                <label for="formFileLg" class="form-label">Agregue archivos aquí</label>
+                <input class="form-control form-control-lg" id="formFileLg" type="file">
+              </div>
+    
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary btn-block mt-4 fs-3 m-3" type="submit">Enviar</button>
+              <small id="finalHelp" class="form-text text-danger"> </small>
+              </div>
+            </form> 
+
           </div>
-    </header>
+        </main> 
 
-    <div class="container-fluid">
-    
-      <h1>
-        Crear nueva cuenta de cliente
-        <span class="follow-up-hint"></span>
-    
-      </h1>
-    
-      <main class="row mt-3 mb-5 " >
-        <div class="mt-5 contacto">
-          <h2 class="offset-1 col-10 fs-1"><strong> Enviar una Solicitud: </strong></h2>
-          <form id="form-contact"  class="offset-1 col-10 form mb-5">
-            <div class="form-group fs-3 mt-4">
-                <label for="name">Nombre Completo:</label>
-                <input type="text" class="form-control fs-4" id="name" placeholder="Juanito Connor">
-                <small id="nameHelp" class=" form-text text-danger"> </small>
-            </div>
-  
-            <div class="form-group fs-3 mt-4">
-              <label for="email">Email: </label>
-              <input type="email" class="form-control fs-4" id="email" placeholder="jConnor@skynet.com">
-  
-              <small id="mailHelp" class=" form-text text-danger"> </small>
-            </div> 
-  
-            <div class="form-group fs-3 mt-4">
-              <label for="asunto">Asunto</label>
-              <input type="text" class="form-control fs-4" id="asunto" placeholder="">
-              <small id="asuntoHelp" class=" form-text text-danger"> </small>
-            </div>   
-  
-            <div class="form-group fs-3 mt-4">
-              <label for="text-area">Escribenos tu mensaje:</label>
-              <textarea class="form-control fs-4" id="text-area" rows="4" placeholder="Escribenos y nos contactaremos contigo."></textarea>
-              <small id="textHelp" class=" form-text text-danger"> </small>
-            </div>
-  
-            <button class="btn btn-primary btn-block mt-4 fs-3 m-3" type="submit">Enviar</button>
-            <small id="finalHelp" class="form-text text-danger"> </small>
-          </form>
-        </div>
-      </main>
+      </div>
 
-            <p="request_description_hint">Ingrese los detalles de esta solicitud. Un integrante de nuestro personal de soporte responderá en breve.</p=>
+        <div class="row mt-1 mb-5">
+          <h2 class="text-center mb-3 mt-5"><strong> ¡NOVEDADES Y BENEFICIOS!</strong></h2>
+          <p class="text-center mt-3">Suscríbete ahora a nuestro newsletter y recibe en tu email ofertas exclusivas, promociones ¡y mucho más!</p>
+        
+          <div class="text-center mt-3">
+            <input type="email" name="email" id="email" placeholder="correo electrónico"><button type="button" class="btn-dark">Suscribir</button>
+          </div>            
+      </div>
+    
+      <footer class="row col mt-5 p-5 bg-dark text-white text-left">      
+      
+      <div class="col-sm-6 col-md-4 fs-4 ">   
+        <h3 class="border-bottom"><span class="footer_titles">Sobre Nosotros</span></h3>     
+        <a href="/historia.html"><p>Historia</p></a>        
+        <a href="/nuestras_tiendas.html"><p>Nuestras Tiendas</p></a>
+        <a href="/Web/Productos/productosYservicios.html"><p>Productos & Servicios</p></a>
+      </div>
+
+      <div class="col-sm-6 col-md-4 fs-4 ">   
+        <h3 class="border-bottom"><span class="footer_titles">Servicio Cliente</span></h3>     
+        <p><a href="/preguntas_frecuentes.html">Preguntas Frecuentes </a> </p>
+        <a href="/registro_bike.html"><p>Registra tu bicicleta</p></a>    
+        <a href="/metodos_envio.html"><p>Metodos de Envío</p></a>    
+        <a href="/seguimiento_envio.html"><p>Seguimiento de Envio</p></a>    
+      </div>
+
+      <div class="col-sm-6 col-md-4 fs-4 ">   
+        <h3 class="border-bottom mb-3"><span class="footer_titles"> Nuestras Redes Sociales</span></h3>     
+        
+        <i class="fab fa-facebook-f col-12 mb-4" style="color: #0260d2;"><br> <span class="text-white"><small><a href="https://es-la.facebook.com/"> facebook.com/master_bike</a></small></span></i> 
+        
+        <i class="fab fa-twitter col-12 mb-4" style="color: #2791fa;"><br><span class="text-white"><small><a href="https://twitter.com/?lang=es"> .master_bike</a></small></span></i>    
        
-          </div>
+        <i class="fab fa-instagram col-12 mb-4" style="color: #c936ab;"><br><span class="text-white" ><small><a href="https://www.instagram.com/"> master_bike_</a></small></span></i>     
+                
+      </div>
 
-        <div class="fs-4 mb-3 mt-4">
-            <label for="formFileLg" class="form-label">Agregue archivos aquí</label>
-            <input class="form-control form-control-lg" id="formFileLg" type="file">
-          </div>
+      <div class="mt-5  offset-2 col-8 ">
+        <h3 class="col-sm-12 ">Horario de atención: <br>
+          <small class="col col-sm-4 " style="font-size: 1.1rem;"> Lunes a Viernes de 10:00 a 20:00 hrs.
+            | Sábados de 10:00 a 16:00 hrs. <br> <i class="fas fa-phone col-sm-4 "> 998477322</i></small>                   
+        </h3>
+       </div>
+      </footer>
 
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-primary btn-lg" type="button">Enviar</button>
-        </div>
-    </form> 
+    </div>
 
-    
         <!-- script de bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- Fin script de bootstrap -->
